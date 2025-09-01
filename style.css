@@ -112,3 +112,31 @@ button:active{
 p{
     color: white;
 }
+
+@media (max-width: 575px){
+    main img{
+        width: 250px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    .sorteio-input input {
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    padding: 6px 10px 6px 16px;
+    width: 160px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    border-style: none;
+    box-shadow: 0 4px 6px 0 rgba(255, 255, 255, 0.20);
+    }
+
+    button{
+        width: 180px;
+        height: 34px;
+    }
+}
