@@ -18,7 +18,7 @@ function sortear() {
         pResultado.textContent = `Seu número sorteado é: ${numeroAleatorio}`;
     }
 
-    if (max < min){
+    if (min <= max){
         pResultado.textContent = `O número máximo deve ser maior que o mínimo`;
     }
 
