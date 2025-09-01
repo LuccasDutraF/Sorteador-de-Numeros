@@ -18,6 +18,10 @@ function sortear() {
         pResultado.textContent = `Seu número sorteado é: ${numeroAleatorio}`;
     }
 
+    if (max < min){
+        pResultado.textContent = `O número máximo deve ser maior que o mínimo`;
+    }
+
 }
 
 botaoSorteio.addEventListener("click", sortear)
